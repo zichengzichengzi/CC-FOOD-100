@@ -7,10 +7,25 @@ Depth images are raw data that can be used for food volume calculation or other 
 
 ## Dataset structure
 
-> Annotations      
->> 二级菜单       
->>> 三级菜单
-> Annotations
-> Annotations  
+```
+<datasets>
+|-- <DatasetName1>
+    |-- <RGBFolder>
+        |-- <name1>.<ImageFormat>
+        |-- <name2>.<ImageFormat>
+        ...
+    |-- <ModalXFolder>
+        |-- <name1>.<ModalXFormat>
+        |-- <name2>.<ModalXFormat>
+        ...
+    |-- <LabelFolder>
+        |-- <name1>.<LabelFormat>
+        |-- <name2>.<LabelFormat>
+        ...
+    |-- train.txt
+    |-- test.txt
+|-- <DatasetName2>
+|-- ...
+```
 
 --- 
