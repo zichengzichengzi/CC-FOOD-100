@@ -7,25 +7,21 @@ Depth images are raw data that can be used for food volume calculation or other 
 
 ## Dataset structure
 
-```
-<datasets>
-|-- <DatasetName1>
-    |-- <RGBFolder>
-        |-- <name1>.<ImageFormat>
-        |-- <name2>.<ImageFormat>
+``
+|-- <CC-FOOD-100>
+    |-- <json> 存放标签文件
+        0.json
+        1.json
         ...
-    |-- <ModalXFolder>
-        |-- <name1>.<ModalXFormat>
-        |-- <name2>.<ModalXFormat>
+    |-- <depth>存放深度图像文件
+        0.png
+        1.png
         ...
-    |-- <LabelFolder>
-        |-- <name1>.<LabelFormat>
-        |-- <name2>.<LabelFormat>
+    |-- <rgb>存放彩色图像文件
+        0.png
+        1.png
         ...
-    |-- train.txt
-    |-- test.txt
-|-- <DatasetName2>
-|-- ...
+        
 ```
 
 --- 
