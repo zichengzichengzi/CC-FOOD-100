@@ -7,7 +7,7 @@ Depth images are raw data that can be used for food volume calculation or other 
 
 |名称|下载地址|
 |:---|:---|
-|CC-FOOD-100|[https://pan.baidu.com/s/1Cb4AULANrZSCKgsg10XFaQ password:9ucz|
+|CC-FOOD-100|https://pan.baidu.com/s/1Cb4AULANrZSCKgsg10XFaQ password:9ucz|
 
 ## Dataset structure
 
