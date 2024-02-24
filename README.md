@@ -4,7 +4,7 @@ a new food dataset(rgb+depth) CC Food-100 for food detection and nutrient calcul
 ![微信截图_20240126223722](https://github.com/zichengzichengzi/CC-FOOD-100/assets/43312794/d52b8b55-fc70-4512-8050-7802e1241b9d)
 
 
-|名称|下载地址|
+|Name|Address|
 |:---|:---|
 |CC-FOOD-100|https://pan.baidu.com/s/1Cb4AULANrZSCKgsg10XFaQ password:9ucz|
 
@@ -12,15 +12,15 @@ a new food dataset(rgb+depth) CC Food-100 for food detection and nutrient calcul
 
 ```
 |-- <CC-FOOD-100>
-    |-- <json> 存放标签文件
+    |-- <json> //Store label files
         0.json
         1.json
         ...
-    |-- <depth>存放深度图像文件
+    |-- <depth> //Store depth images
         0.png
         1.png
         ...
-    |-- <rgb>存放彩色图像文件
+    |-- <rgb> //Store color images
         0.png
         1.png
         ...
@@ -38,3 +38,15 @@ We provide food image analysis server source for food recognition and nutrient e
 * Open3D 0.17 or higher
 * sqlite3 3.17 or higher
 * tornado 1.6.2 or higher
+### Source structure
+```
+|-- <food_net>
+    |-- <database> 
+        food.db //Food nutrient database
+    |-- <handlers>
+        ImageAIHandler.py //Server function implementation
+    |-- <utils> 
+       cal_vol.py //Volume calculation implementation
+    |-- <yolov8> //Object detection network
+    run.py 
+```
