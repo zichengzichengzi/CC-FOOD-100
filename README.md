@@ -7,7 +7,7 @@ Depth images are raw data that can be used for food volume calculation or other 
 
 ## Dataset structure
 
-``
+```
 |-- <CC-FOOD-100>
     |-- <json> 存放标签文件
         0.json
