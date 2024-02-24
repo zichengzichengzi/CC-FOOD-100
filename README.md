@@ -5,10 +5,9 @@ download address:https://pan.baidu.com/s/1Cb4AULANrZSCKgsg10XFaQ password:9ucz
 ![微信截图_20240126223722](https://github.com/zichengzichengzi/CC-FOOD-100/assets/43312794/d52b8b55-fc70-4512-8050-7802e1241b9d)
 Depth images are raw data that can be used for food volume calculation or other downstream tasks.
 
-|列名1|列名2|
+|名称|下载地址|
 |:---|:---|
-|列1的内容1|列2的内容1|
-|列1的内容2|列2的内容2|
+|CC-FOOD-100|[百度](www.baidu.com)|
 
 ## Dataset structure
 
