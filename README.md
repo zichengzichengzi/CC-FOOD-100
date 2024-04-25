@@ -29,24 +29,4 @@ a new food dataset(rgb+depth) CC Food-100 for food detection and nutrient calcul
 
 --- 
 
-## Food image analysis server
-We provide food image analysis server source for food recognition and nutrient estimation.
-### Requirements
-* Python 3.7+
-* PyTorch 1.7.0 or higher
-* CUDA 10.2 or higher
-* Open3D 0.17 or higher
-* sqlite3 3.17 or higher
-* tornado 1.6.2 or higher
-### Source structure
-```
-|-- <food_net>
-    |-- <database> 
-        food.db //Food nutrient database
-    |-- <handlers>
-        ImageAIHandler.py //Server function implementation
-    |-- <utils> 
-       cal_vol.py //Volume calculation implementation
-    |-- <yolov8> //Object detection network
-    run.py 
-```
+
