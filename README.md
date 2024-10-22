@@ -6,7 +6,7 @@ a new food dataset(rgb+depth) CC Food-100 for food detection and nutrient calcul
 
 |Name|Address|
 |:---|:---|
-|CC-FOOD-100|https://pan.baidu.com/s/1Cb4AULANrZSCKgsg10XFaQ password:9ucz|
+|CC-FOOD-100|[https://pan.baidu.com/s/1Cb4AULANrZSCKgsg10XFaQ password:9ucz](https://pan.baidu.com/s/1o7ZDwkd4oUFui5UZMmIvPw?pwd=pfav)|
 
 ## Dataset structure
 
