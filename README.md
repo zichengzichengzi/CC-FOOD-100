@@ -17,12 +17,16 @@ a new food dataset(rgb+depth) CC Food-100 for food detection and nutrient calcul
         1.json
         ...
     |-- <depth> //Store depth images
-        0.png
-        1.png
+        0.npy
+        1.npy
         ...
     |-- <rgb> //Store color images
         0.png
         1.png
+        ...
+    |-- <xml> //Store voc xml
+        0.xml
+        1.xml
         ...
         
 ```
