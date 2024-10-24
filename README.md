@@ -41,7 +41,6 @@ url = {https://www.sciencedirect.com/science/article/pii/S0308814624033892},
 author = {Zicheng Gao and Xufeng Yuan and Jie Lei and Hao Guo and Francesco Marinello and Lorenzo Guerrini and Alberto Carraro},
 keywords = {Nutritional intake analysis, RGB-D image, College students' dietary habits, Automated food recognition, Volume estimation},
 }
-
---- 
+```
 
 
