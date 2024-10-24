@@ -30,6 +30,8 @@ a new food dataset(rgb+depth) CC Food-100 for food detection and nutrient calcul
         ...
         
 ```
+        
+```
 @article{GAO2024141739,
 title = {A vision-based dietary survey and assessment system for college students in China},
 journal = {Food Chemistry},
